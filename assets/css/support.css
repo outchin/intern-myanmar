@@ -1,0 +1,125 @@
+p {margin: 0;}
+ul { margin: 0; padding: 0;}
+li {list-style-type:none;}
+label {margin: 0; font-family: 'Lato', sans-serif; }
+
+.w3ls-main {
+    width: 620px; margin: 0 auto; padding: 2em; min-height: 500px; background: #fff;
+	margin-bottom: 20px; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+
+
+
+h3 {}
+
+.Refer_w3l { margin-top: 36px; text-align: center;}
+.w3ls-main p { color: #000; font-size: 17px; text-align: center; margin-top: 15px; letter-spacing: 2px;}
+input::placeholder { color: black;}
+textarea::placeholder { color: black;}
+
+label.w3ls-opt { font-size: 15px; font-weight: 500; text-align: left; text-transform: capitalize; letter-spacing: 1px; padding: 10px 0; color: #fff; font-family: 'Lato', sans-serif;}
+label.w3ls-opt {width: 30%; display: inline-block; float: left;}
+span.w3ls-star {font-size: 28px; vertical-align: -5px; color: #e91e1e;}
+label.w3ls-opt1 {font-size: 15px; font-weight: 500; text-align: center; letter-spacing: 2px; color: #fff; font-family: 'Lato', sans-serif;}
+
+input[type="email"] {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+	letter-spacing: 1px;
+    width: 100%;
+    padding: 10px;
+	margin: 10px 0;
+    outline: none;
+	border: 1px solid #fff;
+	background: transparent;
+    color: #fff;
+    box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+::-webkit-input-placeholder {color: #fff;}
+::-moz-placeholder {  color: #fff;}
+:-ms-input-placeholder {color: #fff;}
+:-moz-placeholder { color: #fff;}
+span.w3ls-input textarea {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 10px;
+    width: 70%;
+    margin: 10px 0;
+	background: transparent;
+	box-sizing: border-box;
+    color: #000;
+	outline: none;
+	min-height: 90px;
+	resize: none;
+	font-family: 'Lato', sans-serif;
+}
+span.text:nth-child(1) {margin-right: 8px;}
+.text {width: 49%;float: left;}
+span.text:nth-child(3) {margin-right: 8px;}
+.text {width: 49%;float: left;}
+span.text:nth-child(5) {margin-right: 8px;}
+.text {width: 49%;float: left;}
+.w3ls-name {display: inline-block; width: 70%;}
+.adderss input {width: 100%; display: inline-block;}
+.adderss {display: inline-block; width: 70%;}
+.number {display: inline-block; width: 70%;}
+
+span.w3ls-text.w3ls-name select {
+    font-size: 15px; font-weight: 500; text-transform: capitalize; letter-spacing: 1px; padding: 10px; margin: 10px 0; width: 100%;
+    outline: none; border: 1px solid #fff; background: transparent; color: #fff; box-sizing: border-box; font-family: 'Lato', sans-serif;
+}
+span.w3ls-text.w3ls-name select option {color: #000;}
+.input {margin: 20px 0; text-align:center;}
+.w3ls-btn{text-align: center;}
+@media(max-width:1440px){
+	.w3l-timer {width: 50%;}
+	.w3l-form {width: 50%;}
+}
+@media(max-width:768px){
+	.w3ls-main {width: 570px;}
+}
+@media(max-width:667px){
+   .w3ls-main {width: 500px;}
+   label.w3ls-opt {width: 33%; display: inline-block; float: left;}
+  .w3ls-name {display: inline-block;width: 66%;}
+  .adderss {display: inline-block; width: 67%;}
+  .text {width: 48%; float: left;}
+  span.w3ls-input textarea{width: 66%;}
+  .w3ls-main p {font-size: 15px;}
+}
+@media(max-width:640px){
+	.w3ls-main {width: 480px;}
+}
+@media(max-width:600px){
+	.w3ls-main {width: 450px;}
+}
+@media(max-width:568px){
+	.w3ls-main {width: 440px;}
+}
+@media(max-width:480px){
+	.w3ls-main {width: 335px;}
+	label.w3ls-opt {width: 100%; padding: 0px 0px; display: inline-block; float: left;}
+	input[type="text"]{ margin: 3px 0;}
+	.w3ls-name {display: inline-block;width: 100%;}
+	.adderss {display: inline-block;width: 100%;}
+	span.w3ls-input textarea{width: 100%;}
+	span.w3ls-text.w3ls-name select{margin: 3px 0px;}
+	label.w3ls-opt1 {letter-spacing: 1px;}
+	input[type="submit"] {width: 150px;}
+}
+@media(max-width:414px){
+	input[type="text"]{margin: 3px 0 10px;}
+	label.w3ls-opt {padding: 0px 0;}
+}
+@media(max-width:384px){
+   .text {width: 100%; float: left;}
+   input[type="submit"] {width: 150px;}
+}
+
+@media(max-width:320px){
+    .w3ls-main p {font-size: 14px; letter-spacing: 1px;}
+}
